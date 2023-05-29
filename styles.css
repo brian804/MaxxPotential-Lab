@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins:wght@200;300;400;500;600&family=Ubuntu+Condensed&display=swap');
+
+* {
+    margin: 0;
+}
+
+.hero-container { 
+    display: flex;
+    align-items: center;
+    margin: 30px 170px 30px 170px;
+}
+
+.hero-text {
+    margin-left: auto;
+}
+
+.hero-text-intro-1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #3D3D3D;
+    font-size: 28pt;
+}
+
+.hero-text-intro-2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #3D3D3D;
+    font-size: 24pt;
+}
+
+.company-logo {
+    width: 210px;
+    height: 100px
+}
+
+.hero-image {
+    background-image: url(images/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    padding: 55px 0;
+}
+
+.portfolio-title {
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+  }
+  
+  .portfolio-section {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 0px 110px;
+   text-align: center;
+  }
+
+.portfolio-section img {
+    width: 365px;
+    height: 200px;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+.portfolio-section img:hover {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7;
+}
+
+.project-title h2 {
+    border-top: 2px solid #000000;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 5px 0 0 0;
+}
+
+.project-title p {
+    border-bottom: 4px solid #000000;
+    padding: 0 0 5px 0;
+}
+
+.portfolio a {
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    color: #BB1F25;
+}
+
+.footer { 
+    text-align: center;
+    padding: 40px 0;
+    background-color: #3D3D3D;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+.footer a {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+}
+
+/* @media (max-width: 768px) {
+    .hero-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-text {
+      margin-left: 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .company-logo {
+      margin-bottom: 20px;
+    }
+
+    .hero-image {
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 69%;
+        background-position-y: -145px;
+    }
+  } */
